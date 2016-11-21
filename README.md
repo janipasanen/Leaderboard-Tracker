@@ -1,1 +1,1 @@
-En ios app för iPhone och iPad för poängföring av trekamper och femkamper.
+En ios app för iPad för poängföring av fem- och trekamper.
