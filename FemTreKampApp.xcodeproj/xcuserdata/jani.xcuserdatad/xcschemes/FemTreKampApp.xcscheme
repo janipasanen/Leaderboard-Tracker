@@ -48,6 +48,16 @@
                ReferencedContainer = "container:FemTreKampApp.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "39D9756B1DE4BEF50072B35B"
+               BuildableName = "CoolnessTests.xctest"
+               BlueprintName = "CoolnessTests"
+               ReferencedContainer = "container:FemTreKampApp.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
