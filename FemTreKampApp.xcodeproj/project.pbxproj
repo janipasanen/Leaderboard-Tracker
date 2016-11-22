@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		394B1CB81DE3F14700E8773E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CB71DE3F14700E8773E /* AppDelegate.swift */; };
+		394B1CBA1DE3F14700E8773E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CB91DE3F14700E8773E /* ViewController.swift */; };
+		394B1CBD1DE3F14700E8773E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CBB1DE3F14700E8773E /* Main.storyboard */; };
+		394B1CC01DE3F14700E8773E /* FemTreKampApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CBE1DE3F14700E8773E /* FemTreKampApp.xcdatamodeld */; };
+		394B1CC21DE3F14700E8773E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CC11DE3F14700E8773E /* Assets.xcassets */; };
+		394B1CC51DE3F14700E8773E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */; };
+		394B1CD01DE3F14700E8773E /* FemTreKampAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CCF1DE3F14700E8773E /* FemTreKampAppTests.swift */; };
+		394B1CDB1DE3F14700E8773E /* FemTreKampAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		394B1CCC1DE3F14700E8773E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394B1CAC1DE3F14700E8773E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394B1CB31DE3F14700E8773E;
+			remoteInfo = FemTreKampApp;
+		};
+		394B1CD71DE3F14700E8773E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 394B1CAC1DE3F14700E8773E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 394B1CB31DE3F14700E8773E;
+			remoteInfo = FemTreKampApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		394B1CB41DE3F14700E8773E /* FemTreKampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FemTreKampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		394B1CB71DE3F14700E8773E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		394B1CB91DE3F14700E8773E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394B1CBC1DE3F14700E8773E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		394B1CBF1DE3F14700E8773E /* FemTreKampApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FemTreKampApp.xcdatamodel; sourceTree = "<group>"; };
+		394B1CC11DE3F14700E8773E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		394B1CC41DE3F14700E8773E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		394B1CC61DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394B1CCB1DE3F14700E8773E /* FemTreKampAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemTreKampAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		394B1CCF1DE3F14700E8773E /* FemTreKampAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTreKampAppTests.swift; sourceTree = "<group>"; };
+		394B1CD11DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		394B1CD61DE3F14700E8773E /* FemTreKampAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemTreKampAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTreKampAppUITests.swift; sourceTree = "<group>"; };
+		394B1CDC1DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		394B1CB11DE3F14700E8773E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394B1CC81DE3F14700E8773E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394B1CD31DE3F14700E8773E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		394B1CAB1DE3F14700E8773E = {
+			isa = PBXGroup;
+			children = (
+				394B1CB61DE3F14700E8773E /* FemTreKampApp */,
+				394B1CCE1DE3F14700E8773E /* FemTreKampAppTests */,
+				394B1CD91DE3F14700E8773E /* FemTreKampAppUITests */,
+				394B1CB51DE3F14700E8773E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		394B1CB51DE3F14700E8773E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				394B1CB41DE3F14700E8773E /* FemTreKampApp.app */,
+				394B1CCB1DE3F14700E8773E /* FemTreKampAppTests.xctest */,
+				394B1CD61DE3F14700E8773E /* FemTreKampAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		394B1CB61DE3F14700E8773E /* FemTreKampApp */ = {
+			isa = PBXGroup;
+			children = (
+				394B1CB71DE3F14700E8773E /* AppDelegate.swift */,
+				394B1CB91DE3F14700E8773E /* ViewController.swift */,
+				394B1CBB1DE3F14700E8773E /* Main.storyboard */,
+				394B1CC11DE3F14700E8773E /* Assets.xcassets */,
+				394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */,
+				394B1CC61DE3F14700E8773E /* Info.plist */,
+				394B1CBE1DE3F14700E8773E /* FemTreKampApp.xcdatamodeld */,
+			);
+			path = FemTreKampApp;
+			sourceTree = "<group>";
+		};
+		394B1CCE1DE3F14700E8773E /* FemTreKampAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				394B1CCF1DE3F14700E8773E /* FemTreKampAppTests.swift */,
+				394B1CD11DE3F14700E8773E /* Info.plist */,
+			);
+			path = FemTreKampAppTests;
+			sourceTree = "<group>";
+		};
+		394B1CD91DE3F14700E8773E /* FemTreKampAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */,
+				394B1CDC1DE3F14700E8773E /* Info.plist */,
+			);
+			path = FemTreKampAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		394B1CB31DE3F14700E8773E /* FemTreKampApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394B1CDF1DE3F14700E8773E /* Build configuration list for PBXNativeTarget "FemTreKampApp" */;
+			buildPhases = (
+				394B1CB01DE3F14700E8773E /* Sources */,
+				394B1CB11DE3F14700E8773E /* Frameworks */,
+				394B1CB21DE3F14700E8773E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FemTreKampApp;
+			productName = FemTreKampApp;
+			productReference = 394B1CB41DE3F14700E8773E /* FemTreKampApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		394B1CCA1DE3F14700E8773E /* FemTreKampAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394B1CE21DE3F14700E8773E /* Build configuration list for PBXNativeTarget "FemTreKampAppTests" */;
+			buildPhases = (
+				394B1CC71DE3F14700E8773E /* Sources */,
+				394B1CC81DE3F14700E8773E /* Frameworks */,
+				394B1CC91DE3F14700E8773E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394B1CCD1DE3F14700E8773E /* PBXTargetDependency */,
+			);
+			name = FemTreKampAppTests;
+			productName = FemTreKampAppTests;
+			productReference = 394B1CCB1DE3F14700E8773E /* FemTreKampAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		394B1CD51DE3F14700E8773E /* FemTreKampAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394B1CE51DE3F14700E8773E /* Build configuration list for PBXNativeTarget "FemTreKampAppUITests" */;
+			buildPhases = (
+				394B1CD21DE3F14700E8773E /* Sources */,
+				394B1CD31DE3F14700E8773E /* Frameworks */,
+				394B1CD41DE3F14700E8773E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				394B1CD81DE3F14700E8773E /* PBXTargetDependency */,
+			);
+			name = FemTreKampAppUITests;
+			productName = FemTreKampAppUITests;
+			productReference = 394B1CD61DE3F14700E8773E /* FemTreKampAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		394B1CAC1DE3F14700E8773E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jani Pasanen";
+				TargetAttributes = {
+					394B1CB31DE3F14700E8773E = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					394B1CCA1DE3F14700E8773E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 394B1CB31DE3F14700E8773E;
+					};
+					394B1CD51DE3F14700E8773E = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 394B1CB31DE3F14700E8773E;
+					};
+				};
+			};
+			buildConfigurationList = 394B1CAF1DE3F14700E8773E /* Build configuration list for PBXProject "FemTreKampApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 394B1CAB1DE3F14700E8773E;
+			productRefGroup = 394B1CB51DE3F14700E8773E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				394B1CB31DE3F14700E8773E /* FemTreKampApp */,
+				394B1CCA1DE3F14700E8773E /* FemTreKampAppTests */,
+				394B1CD51DE3F14700E8773E /* FemTreKampAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		394B1CB21DE3F14700E8773E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B1CC51DE3F14700E8773E /* LaunchScreen.storyboard in Resources */,
+				394B1CC21DE3F14700E8773E /* Assets.xcassets in Resources */,
+				394B1CBD1DE3F14700E8773E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394B1CC91DE3F14700E8773E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394B1CD41DE3F14700E8773E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		394B1CB01DE3F14700E8773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B1CC01DE3F14700E8773E /* FemTreKampApp.xcdatamodeld in Sources */,
+				394B1CBA1DE3F14700E8773E /* ViewController.swift in Sources */,
+				394B1CB81DE3F14700E8773E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394B1CC71DE3F14700E8773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B1CD01DE3F14700E8773E /* FemTreKampAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		394B1CD21DE3F14700E8773E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				394B1CDB1DE3F14700E8773E /* FemTreKampAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		394B1CCD1DE3F14700E8773E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394B1CB31DE3F14700E8773E /* FemTreKampApp */;
+			targetProxy = 394B1CCC1DE3F14700E8773E /* PBXContainerItemProxy */;
+		};
+		394B1CD81DE3F14700E8773E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 394B1CB31DE3F14700E8773E /* FemTreKampApp */;
+			targetProxy = 394B1CD71DE3F14700E8773E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		394B1CBB1DE3F14700E8773E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394B1CBC1DE3F14700E8773E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				394B1CC41DE3F14700E8773E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		394B1CDD1DE3F14700E8773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		394B1CDE1DE3F14700E8773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		394B1CE01DE3F14700E8773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FemTreKampApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		394B1CE11DE3F14700E8773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FemTreKampApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		394B1CE31DE3F14700E8773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FemTreKampAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FemTreKampApp.app/FemTreKampApp";
+			};
+			name = Debug;
+		};
+		394B1CE41DE3F14700E8773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FemTreKampAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FemTreKampApp.app/FemTreKampApp";
+			};
+			name = Release;
+		};
+		394B1CE61DE3F14700E8773E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FemTreKampAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FemTreKampApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		394B1CE71DE3F14700E8773E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = FemTreKampAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FemTreKampApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		394B1CAF1DE3F14700E8773E /* Build configuration list for PBXProject "FemTreKampApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394B1CDD1DE3F14700E8773E /* Debug */,
+				394B1CDE1DE3F14700E8773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394B1CDF1DE3F14700E8773E /* Build configuration list for PBXNativeTarget "FemTreKampApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394B1CE01DE3F14700E8773E /* Debug */,
+				394B1CE11DE3F14700E8773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		394B1CE21DE3F14700E8773E /* Build configuration list for PBXNativeTarget "FemTreKampAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394B1CE31DE3F14700E8773E /* Debug */,
+				394B1CE41DE3F14700E8773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		394B1CE51DE3F14700E8773E /* Build configuration list for PBXNativeTarget "FemTreKampAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				394B1CE61DE3F14700E8773E /* Debug */,
+				394B1CE71DE3F14700E8773E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		394B1CBE1DE3F14700E8773E /* FemTreKampApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				394B1CBF1DE3F14700E8773E /* FemTreKampApp.xcdatamodel */,
+			);
+			currentVersion = 394B1CBF1DE3F14700E8773E /* FemTreKampApp.xcdatamodel */;
+			path = FemTreKampApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 394B1CAC1DE3F14700E8773E /* Project object */;
+}
