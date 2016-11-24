@@ -32,104 +32,6 @@
 			remoteGlobalIDString = 394B1CB31DE3F14700E8773E;
 			remoteInfo = FemTreKampApp;
 		};
-		39D976BC1DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B3E79B719D355CF006071F7;
-			remoteInfo = JSONJoy;
-		};
-		39D976BE1DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6B3E79C219D355CF006071F7;
-			remoteInfo = JSONJoyTests;
-		};
-		39D976C01DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D958022E19E6ED8E003C8218;
-			remoteInfo = JSONJoyOSX;
-		};
-		39D976C21DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D958023819E6ED8E003C8218;
-			remoteInfo = JSONJoyOSXTests;
-		};
-		39D976C41DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C135EED1C4734BA00AA3A01;
-			remoteInfo = JSONJoytvOS;
-		};
-		39D976C61DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C135EF61C4734BA00AA3A01;
-			remoteInfo = JSONJoytvOSTests;
-		};
-		39D976C81DE4C7160072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C135FCB1C47392D00AA3A01;
-			remoteInfo = JSONJoyWatchOS;
-		};
-		39D976D41DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
-			remoteInfo = SwiftHTTP;
-		};
-		39D976D61DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
-			remoteInfo = SwiftHTTPTests;
-		};
-		39D976D81DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D958025919E6EEEB003C8218;
-			remoteInfo = SwiftHTTPOSX;
-		};
-		39D976DA1DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = D958026319E6EEEB003C8218;
-			remoteInfo = SwiftHTTPOSXTests;
-		};
-		39D976DC1DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C135EC11C4733CD00AA3A01;
-			remoteInfo = SwiftHTTPtvOS;
-		};
-		39D976DE1DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C135ECA1C4733CE00AA3A01;
-			remoteInfo = SwiftHTTPtvOSTests;
-		};
-		39D976E01DE4C7300072B35B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 5C135FA91C4737E200AA3A01;
-			remoteInfo = SwiftHTTPWatchOS;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -147,8 +49,6 @@
 		394B1CD61DE3F14700E8773E /* FemTreKampAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemTreKampAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTreKampAppUITests.swift; sourceTree = "<group>"; };
 		394B1CDC1DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift/JSONJoy.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,38 +132,8 @@
 		39D975271DE4B6A70072B35B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */,
-				39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */,
 			);
 			name = Libraries;
-			sourceTree = "<group>";
-		};
-		39D976B31DE4C7150072B35B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				39D976BD1DE4C7160072B35B /* JSONJoy.framework */,
-				39D976BF1DE4C7160072B35B /* JSONJoyTests.xctest */,
-				39D976C11DE4C7160072B35B /* JSONJoy.framework */,
-				39D976C31DE4C7160072B35B /* JSONJoyOSXTests.xctest */,
-				39D976C51DE4C7160072B35B /* JSONJoy.framework */,
-				39D976C71DE4C7160072B35B /* JSONJoytvOSTests.xctest */,
-				39D976C91DE4C7160072B35B /* JSONJoy.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		39D976CB1DE4C7300072B35B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				39D976D51DE4C7300072B35B /* SwiftHTTP.framework */,
-				39D976D71DE4C7300072B35B /* SwiftHTTPTests.xctest */,
-				39D976D91DE4C7300072B35B /* SwiftHTTP.framework */,
-				39D976DB1DE4C7300072B35B /* SwiftHTTPOSXTests.xctest */,
-				39D976DD1DE4C7300072B35B /* SwiftHTTP.framework */,
-				39D976DF1DE4C7300072B35B /* SwiftHTTPtvOSTests.xctest */,
-				39D976E11DE4C7300072B35B /* SwiftHTTP.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -356,16 +226,6 @@
 			mainGroup = 394B1CAB1DE3F14700E8773E;
 			productRefGroup = 394B1CB51DE3F14700E8773E /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 39D976B31DE4C7150072B35B /* Products */;
-					ProjectRef = 39D976B21DE4C7150072B35B /* JSONJoy.xcodeproj */;
-				},
-				{
-					ProductGroup = 39D976CB1DE4C7300072B35B /* Products */;
-					ProjectRef = 39D976CA1DE4C7300072B35B /* SwiftHTTP.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				394B1CB31DE3F14700E8773E /* FemTreKampApp */,
@@ -374,107 +234,6 @@
 			);
 		};
 /* End PBXProject section */
-
-/* Begin PBXReferenceProxy section */
-		39D976BD1DE4C7160072B35B /* JSONJoy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSONJoy.framework;
-			remoteRef = 39D976BC1DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976BF1DE4C7160072B35B /* JSONJoyTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = JSONJoyTests.xctest;
-			remoteRef = 39D976BE1DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976C11DE4C7160072B35B /* JSONJoy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSONJoy.framework;
-			remoteRef = 39D976C01DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976C31DE4C7160072B35B /* JSONJoyOSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = JSONJoyOSXTests.xctest;
-			remoteRef = 39D976C21DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976C51DE4C7160072B35B /* JSONJoy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSONJoy.framework;
-			remoteRef = 39D976C41DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976C71DE4C7160072B35B /* JSONJoytvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = JSONJoytvOSTests.xctest;
-			remoteRef = 39D976C61DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976C91DE4C7160072B35B /* JSONJoy.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = JSONJoy.framework;
-			remoteRef = 39D976C81DE4C7160072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976D51DE4C7300072B35B /* SwiftHTTP.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftHTTP.framework;
-			remoteRef = 39D976D41DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976D71DE4C7300072B35B /* SwiftHTTPTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftHTTPTests.xctest;
-			remoteRef = 39D976D61DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976D91DE4C7300072B35B /* SwiftHTTP.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftHTTP.framework;
-			remoteRef = 39D976D81DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976DB1DE4C7300072B35B /* SwiftHTTPOSXTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftHTTPOSXTests.xctest;
-			remoteRef = 39D976DA1DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976DD1DE4C7300072B35B /* SwiftHTTP.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftHTTP.framework;
-			remoteRef = 39D976DC1DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976DF1DE4C7300072B35B /* SwiftHTTPtvOSTests.xctest */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.cfbundle;
-			path = SwiftHTTPtvOSTests.xctest;
-			remoteRef = 39D976DE1DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39D976E11DE4C7300072B35B /* SwiftHTTP.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftHTTP.framework;
-			remoteRef = 39D976E01DE4C7300072B35B /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		394B1CB21DE3F14700E8773E /* Resources */ = {

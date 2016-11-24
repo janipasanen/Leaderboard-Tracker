@@ -4,3 +4,9 @@
 [submodule "JSONJoy-Swift"]
 	path = JSONJoy-Swift
 	url = https://github.com/daltoniam/JSONJoy-Swift.git
+[submodule "Alamofire"]
+	path = Alamofire
+	url = https://github.com/Alamofire/Alamofire.git
+[submodule "SwiftyJSON"]
+	path = SwiftyJSON
+	url = https://github.com/SwiftyJSON/SwiftyJSON.git
