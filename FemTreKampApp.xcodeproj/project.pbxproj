@@ -15,6 +15,10 @@
 		394B1CC51DE3F14700E8773E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */; };
 		394B1CD01DE3F14700E8773E /* FemTreKampAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CCF1DE3F14700E8773E /* FemTreKampAppTests.swift */; };
 		394B1CDB1DE3F14700E8773E /* FemTreKampAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */; };
+		39947E1D1DE8B13E00D0DA82 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; };
+		39947E1E1DE8B13E00D0DA82 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39947E3A1DE8B19F00D0DA82 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */; };
+		39947E3B1DE8B19F00D0DA82 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,7 +36,134 @@
 			remoteGlobalIDString = 394B1CB31DE3F14700E8773E;
 			remoteInfo = FemTreKampApp;
 		};
+		39947E0F1DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79B719D355CF006071F7;
+			remoteInfo = JSONJoy;
+		};
+		39947E111DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6B3E79C219D355CF006071F7;
+			remoteInfo = JSONJoyTests;
+		};
+		39947E131DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958022E19E6ED8E003C8218;
+			remoteInfo = JSONJoyOSX;
+		};
+		39947E151DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = D958023819E6ED8E003C8218;
+			remoteInfo = JSONJoyOSXTests;
+		};
+		39947E171DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135EED1C4734BA00AA3A01;
+			remoteInfo = JSONJoytvOS;
+		};
+		39947E191DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135EF61C4734BA00AA3A01;
+			remoteInfo = JSONJoytvOSTests;
+		};
+		39947E1B1DE8B12600D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5C135FCB1C47392D00AA3A01;
+			remoteInfo = JSONJoyWatchOS;
+		};
+		39947E1F1DE8B13E00D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B3E79B619D355CF006071F7;
+			remoteInfo = JSONJoy;
+		};
+		39947E2C1DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
+		39947E2E1DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2E4FEFE619575BE100351305;
+			remoteInfo = "SwiftyJSON iOS Tests";
+		};
+		39947E301DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX";
+		};
+		39947E321DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
+			remoteInfo = "SwiftyJSON OSX Tests";
+		};
+		39947E341DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
+			remoteInfo = "SwiftyJSON watchOS";
+		};
+		39947E361DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7236B4F61BAC14150020529B;
+			remoteInfo = "SwiftyJSON tvOS";
+		};
+		39947E381DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
+			remoteInfo = "SwiftyJSON tvOS Tests";
+		};
+		39947E3C1DE8B19F00D0DA82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
+			remoteInfo = "SwiftyJSON iOS";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		39947E211DE8B13F00D0DA82 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				39947E3B1DE8B19F00D0DA82 /* SwiftyJSON.framework in Embed Frameworks */,
+				39947E1E1DE8B13E00D0DA82 /* JSONJoy.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		394B1CB41DE3F14700E8773E /* FemTreKampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FemTreKampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +180,8 @@
 		394B1CD61DE3F14700E8773E /* FemTreKampAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemTreKampAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTreKampAppUITests.swift; sourceTree = "<group>"; };
 		394B1CDC1DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift/JSONJoy.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +189,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39947E3A1DE8B19F00D0DA82 /* SwiftyJSON.framework in Frameworks */,
+				39947E1D1DE8B13E00D0DA82 /* JSONJoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,9 +264,39 @@
 			path = FemTreKampAppUITests;
 			sourceTree = "<group>";
 		};
+		39947E061DE8B12600D0DA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39947E101DE8B12600D0DA82 /* JSONJoy.framework */,
+				39947E121DE8B12600D0DA82 /* JSONJoyTests.xctest */,
+				39947E141DE8B12600D0DA82 /* JSONJoy.framework */,
+				39947E161DE8B12600D0DA82 /* JSONJoyOSXTests.xctest */,
+				39947E181DE8B12600D0DA82 /* JSONJoy.framework */,
+				39947E1A1DE8B12600D0DA82 /* JSONJoytvOSTests.xctest */,
+				39947E1C1DE8B12600D0DA82 /* JSONJoy.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39947E231DE8B16900D0DA82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */,
+				39947E2F1DE8B16900D0DA82 /* SwiftyJSON iOS Tests.xctest */,
+				39947E311DE8B16900D0DA82 /* SwiftyJSON.framework */,
+				39947E331DE8B16900D0DA82 /* SwiftyJSON OSX Tests.xctest */,
+				39947E351DE8B16900D0DA82 /* SwiftyJSON.framework */,
+				39947E371DE8B16900D0DA82 /* SwiftyJSON.framework */,
+				39947E391DE8B16900D0DA82 /* SwiftyJSON tvOS Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		39D975271DE4B6A70072B35B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */,
+				39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -146,10 +311,13 @@
 				394B1CB11DE3F14700E8773E /* Frameworks */,
 				394B1CB21DE3F14700E8773E /* Resources */,
 				394B1CB01DE3F14700E8773E /* Sources */,
+				39947E211DE8B13F00D0DA82 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				39947E201DE8B13E00D0DA82 /* PBXTargetDependency */,
+				39947E3D1DE8B19F00D0DA82 /* PBXTargetDependency */,
 			);
 			name = FemTreKampApp;
 			productName = FemTreKampApp;
@@ -204,13 +372,16 @@
 				TargetAttributes = {
 					394B1CB31DE3F14700E8773E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
 					};
 					394B1CCA1DE3F14700E8773E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 394B1CB31DE3F14700E8773E;
 					};
 					394B1CD51DE3F14700E8773E = {
 						CreatedOnToolsVersion = 7.2.1;
+						LastSwiftMigration = 0810;
 						TestTargetID = 394B1CB31DE3F14700E8773E;
 					};
 				};
@@ -226,6 +397,16 @@
 			mainGroup = 394B1CAB1DE3F14700E8773E;
 			productRefGroup = 394B1CB51DE3F14700E8773E /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 39947E061DE8B12600D0DA82 /* Products */;
+					ProjectRef = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
+				},
+				{
+					ProductGroup = 39947E231DE8B16900D0DA82 /* Products */;
+					ProjectRef = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				394B1CB31DE3F14700E8773E /* FemTreKampApp */,
@@ -234,6 +415,107 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		39947E101DE8B12600D0DA82 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 39947E0F1DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E121DE8B12600D0DA82 /* JSONJoyTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoyTests.xctest;
+			remoteRef = 39947E111DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E141DE8B12600D0DA82 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 39947E131DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E161DE8B12600D0DA82 /* JSONJoyOSXTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoyOSXTests.xctest;
+			remoteRef = 39947E151DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E181DE8B12600D0DA82 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 39947E171DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E1A1DE8B12600D0DA82 /* JSONJoytvOSTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = JSONJoytvOSTests.xctest;
+			remoteRef = 39947E191DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E1C1DE8B12600D0DA82 /* JSONJoy.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = JSONJoy.framework;
+			remoteRef = 39947E1B1DE8B12600D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 39947E2C1DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E2F1DE8B16900D0DA82 /* SwiftyJSON iOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON iOS Tests.xctest";
+			remoteRef = 39947E2E1DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E311DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 39947E301DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E331DE8B16900D0DA82 /* SwiftyJSON OSX Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON OSX Tests.xctest";
+			remoteRef = 39947E321DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E351DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 39947E341DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E371DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftyJSON.framework;
+			remoteRef = 39947E361DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39947E391DE8B16900D0DA82 /* SwiftyJSON tvOS Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SwiftyJSON tvOS Tests.xctest";
+			remoteRef = 39947E381DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		394B1CB21DE3F14700E8773E /* Resources */ = {
@@ -301,6 +583,16 @@
 			isa = PBXTargetDependency;
 			target = 394B1CB31DE3F14700E8773E /* FemTreKampApp */;
 			targetProxy = 394B1CD71DE3F14700E8773E /* PBXContainerItemProxy */;
+		};
+		39947E201DE8B13E00D0DA82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JSONJoy;
+			targetProxy = 39947E1F1DE8B13E00D0DA82 /* PBXContainerItemProxy */;
+		};
+		39947E3D1DE8B19F00D0DA82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "SwiftyJSON iOS";
+			targetProxy = 39947E3C1DE8B19F00D0DA82 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -410,24 +702,28 @@
 		394B1CE01DE3F14700E8773E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FemTreKampApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		394B1CE11DE3F14700E8773E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = FemTreKampApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -439,6 +735,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FemTreKampApp.app/FemTreKampApp";
 			};
 			name = Debug;
@@ -451,6 +748,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FemTreKampApp.app/FemTreKampApp";
 			};
 			name = Release;
@@ -462,6 +760,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = FemTreKampApp;
 				USES_XCTRUNNER = YES;
 			};
@@ -474,6 +773,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = FemTreKampApp;
 				USES_XCTRUNNER = YES;
 			};

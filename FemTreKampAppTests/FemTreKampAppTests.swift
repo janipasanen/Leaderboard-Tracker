@@ -9,6 +9,7 @@
 import XCTest
 @testable import FemTreKampApp
 
+
 class FemTreKampAppTests: XCTestCase {
     
     override func setUp() {
@@ -27,10 +28,9 @@ class FemTreKampAppTests: XCTestCase {
     }
     
     func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measureBlock {
+        // This is axn example of a performance test case.
+        self.measure {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }
