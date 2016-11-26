@@ -17,8 +17,10 @@
 		394B1CDB1DE3F14700E8773E /* FemTreKampAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */; };
 		39947E1D1DE8B13E00D0DA82 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; };
 		39947E1E1DE8B13E00D0DA82 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		39947E3A1DE8B19F00D0DA82 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */; };
-		39947E3B1DE8B19F00D0DA82 /* SwiftyJSON.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39DDEEA71DEA280600D39398 /* JSONJoySerializationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */; };
+		39DDEEC01DEA286F00D39398 /* SwiftHTTP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39DDEEB31DEA283900D39398 /* SwiftHTTP.framework */; };
+		39DDEEC11DEA286F00D39398 /* SwiftHTTP.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39DDEEB31DEA283900D39398 /* SwiftHTTP.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		39DDEEC51DEA2A7200D39398 /* SwiftHTTPModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DDEEC41DEA2A7200D39398 /* SwiftHTTPModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,61 +94,61 @@
 			remoteGlobalIDString = 6B3E79B619D355CF006071F7;
 			remoteInfo = JSONJoy;
 		};
-		39947E2C1DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEB21DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFDB19575BE100351305;
-			remoteInfo = "SwiftyJSON iOS";
+			remoteGlobalIDString = 6BFD901619C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
 		};
-		39947E2E1DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEB41DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 2E4FEFE619575BE100351305;
-			remoteInfo = "SwiftyJSON iOS Tests";
+			remoteGlobalIDString = 6BFD902119C8D8B500DD99B6;
+			remoteInfo = SwiftHTTPTests;
 		};
-		39947E301DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEB61DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9C7DFC5B1A9102BD005AA3F7;
-			remoteInfo = "SwiftyJSON OSX";
+			remoteGlobalIDString = D958025919E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSX;
 		};
-		39947E321DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEB81DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 9C7DFC651A9102BD005AA3F7;
-			remoteInfo = "SwiftyJSON OSX Tests";
+			remoteGlobalIDString = D958026319E6EEEB003C8218;
+			remoteInfo = SwiftHTTPOSXTests;
 		};
-		39947E341DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEBA1DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = E4D7CCE81B9465A700EE7221;
-			remoteInfo = "SwiftyJSON watchOS";
+			remoteGlobalIDString = 5C135EC11C4733CD00AA3A01;
+			remoteInfo = SwiftHTTPtvOS;
 		};
-		39947E361DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEBC1DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = 7236B4F61BAC14150020529B;
-			remoteInfo = "SwiftyJSON tvOS";
+			remoteGlobalIDString = 5C135ECA1C4733CE00AA3A01;
+			remoteInfo = SwiftHTTPtvOSTests;
 		};
-		39947E381DE8B16900D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEBE1DEA283900D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 2;
-			remoteGlobalIDString = A8580F741BCF5C5B00DA927B;
-			remoteInfo = "SwiftyJSON tvOS Tests";
+			remoteGlobalIDString = 5C135FA91C4737E200AA3A01;
+			remoteInfo = SwiftHTTPWatchOS;
 		};
-		39947E3C1DE8B19F00D0DA82 /* PBXContainerItemProxy */ = {
+		39DDEEC21DEA286F00D39398 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+			containerPortal = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E4FEFDA19575BE100351305;
-			remoteInfo = "SwiftyJSON iOS";
+			remoteGlobalIDString = 6BFD901519C8D8B500DD99B6;
+			remoteInfo = SwiftHTTP;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -157,7 +159,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				39947E3B1DE8B19F00D0DA82 /* SwiftyJSON.framework in Embed Frameworks */,
+				39DDEEC11DEA286F00D39398 /* SwiftHTTP.framework in Embed Frameworks */,
 				39947E1E1DE8B13E00D0DA82 /* JSONJoy.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -181,7 +183,9 @@
 		394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTreKampAppUITests.swift; sourceTree = "<group>"; };
 		394B1CDC1DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift/JSONJoy.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftyJSON.xcodeproj; path = SwiftyJSON/SwiftyJSON.xcodeproj; sourceTree = SOURCE_ROOT; };
+		39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoySerializationModel.swift; sourceTree = "<group>"; };
+		39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = SOURCE_ROOT; };
+		39DDEEC41DEA2A7200D39398 /* SwiftHTTPModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftHTTPModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,7 +193,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				39947E3A1DE8B19F00D0DA82 /* SwiftyJSON.framework in Frameworks */,
+				39DDEEC01DEA286F00D39398 /* SwiftHTTP.framework in Frameworks */,
 				39947E1D1DE8B13E00D0DA82 /* JSONJoy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -234,14 +238,11 @@
 		394B1CB61DE3F14700E8773E /* FemTreKampApp */ = {
 			isa = PBXGroup;
 			children = (
+				39DDEEA31DEA277A00D39398 /* Main Models */,
+				39DDEEA21DEA275F00D39398 /* MVC */,
+				39DDEE951DEA273A00D39398 /* Supporting files */,
 				39D975271DE4B6A70072B35B /* Libraries */,
-				394B1CB71DE3F14700E8773E /* AppDelegate.swift */,
-				394B1CB91DE3F14700E8773E /* ViewController.swift */,
 				394B1CBB1DE3F14700E8773E /* Main.storyboard */,
-				394B1CC11DE3F14700E8773E /* Assets.xcassets */,
-				394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */,
-				394B1CC61DE3F14700E8773E /* Info.plist */,
-				394B1CBE1DE3F14700E8773E /* FemTreKampApp.xcdatamodeld */,
 			);
 			path = FemTreKampApp;
 			sourceTree = "<group>";
@@ -278,27 +279,56 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		39947E231DE8B16900D0DA82 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */,
-				39947E2F1DE8B16900D0DA82 /* SwiftyJSON iOS Tests.xctest */,
-				39947E311DE8B16900D0DA82 /* SwiftyJSON.framework */,
-				39947E331DE8B16900D0DA82 /* SwiftyJSON OSX Tests.xctest */,
-				39947E351DE8B16900D0DA82 /* SwiftyJSON.framework */,
-				39947E371DE8B16900D0DA82 /* SwiftyJSON.framework */,
-				39947E391DE8B16900D0DA82 /* SwiftyJSON tvOS Tests.xctest */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		39D975271DE4B6A70072B35B /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */,
+				39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */,
 				39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */,
 			);
 			name = Libraries;
+			sourceTree = "<group>";
+		};
+		39DDEE951DEA273A00D39398 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				394B1CB71DE3F14700E8773E /* AppDelegate.swift */,
+				394B1CB91DE3F14700E8773E /* ViewController.swift */,
+				394B1CC11DE3F14700E8773E /* Assets.xcassets */,
+				394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */,
+				394B1CC61DE3F14700E8773E /* Info.plist */,
+				394B1CBE1DE3F14700E8773E /* FemTreKampApp.xcdatamodeld */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		39DDEEA21DEA275F00D39398 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = MVC;
+			sourceTree = "<group>";
+		};
+		39DDEEA31DEA277A00D39398 /* Main Models */ = {
+			isa = PBXGroup;
+			children = (
+				39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */,
+				39DDEEC41DEA2A7200D39398 /* SwiftHTTPModel.swift */,
+			);
+			name = "Main Models";
+			sourceTree = "<group>";
+		};
+		39DDEEA91DEA283800D39398 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39DDEEB31DEA283900D39398 /* SwiftHTTP.framework */,
+				39DDEEB51DEA283900D39398 /* SwiftHTTPTests.xctest */,
+				39DDEEB71DEA283900D39398 /* SwiftHTTP.framework */,
+				39DDEEB91DEA283900D39398 /* SwiftHTTPOSXTests.xctest */,
+				39DDEEBB1DEA283900D39398 /* SwiftHTTP.framework */,
+				39DDEEBD1DEA283900D39398 /* SwiftHTTPtvOSTests.xctest */,
+				39DDEEBF1DEA283900D39398 /* SwiftHTTP.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -317,7 +347,7 @@
 			);
 			dependencies = (
 				39947E201DE8B13E00D0DA82 /* PBXTargetDependency */,
-				39947E3D1DE8B19F00D0DA82 /* PBXTargetDependency */,
+				39DDEEC31DEA286F00D39398 /* PBXTargetDependency */,
 			);
 			name = FemTreKampApp;
 			productName = FemTreKampApp;
@@ -367,11 +397,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0720;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Jani Pasanen";
 				TargetAttributes = {
 					394B1CB31DE3F14700E8773E = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = GZP9KMPBH2;
 						LastSwiftMigration = 0810;
 					};
 					394B1CCA1DE3F14700E8773E = {
@@ -403,8 +434,8 @@
 					ProjectRef = 39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */;
 				},
 				{
-					ProductGroup = 39947E231DE8B16900D0DA82 /* Products */;
-					ProjectRef = 39947E221DE8B16900D0DA82 /* SwiftyJSON.xcodeproj */;
+					ProductGroup = 39DDEEA91DEA283800D39398 /* Products */;
+					ProjectRef = 39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -466,53 +497,53 @@
 			remoteRef = 39947E1B1DE8B12600D0DA82 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39947E2D1DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+		39DDEEB31DEA283900D39398 /* SwiftHTTP.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 39947E2C1DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			path = SwiftHTTP.framework;
+			remoteRef = 39DDEEB21DEA283900D39398 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39947E2F1DE8B16900D0DA82 /* SwiftyJSON iOS Tests.xctest */ = {
+		39DDEEB51DEA283900D39398 /* SwiftHTTPTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON iOS Tests.xctest";
-			remoteRef = 39947E2E1DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			path = SwiftHTTPTests.xctest;
+			remoteRef = 39DDEEB41DEA283900D39398 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39947E311DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+		39DDEEB71DEA283900D39398 /* SwiftHTTP.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 39947E301DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			path = SwiftHTTP.framework;
+			remoteRef = 39DDEEB61DEA283900D39398 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39947E331DE8B16900D0DA82 /* SwiftyJSON OSX Tests.xctest */ = {
+		39DDEEB91DEA283900D39398 /* SwiftHTTPOSXTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON OSX Tests.xctest";
-			remoteRef = 39947E321DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			path = SwiftHTTPOSXTests.xctest;
+			remoteRef = 39DDEEB81DEA283900D39398 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39947E351DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
+		39DDEEBB1DEA283900D39398 /* SwiftHTTP.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 39947E341DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			path = SwiftHTTP.framework;
+			remoteRef = 39DDEEBA1DEA283900D39398 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		39947E371DE8B16900D0DA82 /* SwiftyJSON.framework */ = {
-			isa = PBXReferenceProxy;
-			fileType = wrapper.framework;
-			path = SwiftyJSON.framework;
-			remoteRef = 39947E361DE8B16900D0DA82 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		39947E391DE8B16900D0DA82 /* SwiftyJSON tvOS Tests.xctest */ = {
+		39DDEEBD1DEA283900D39398 /* SwiftHTTPtvOSTests.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
-			path = "SwiftyJSON tvOS Tests.xctest";
-			remoteRef = 39947E381DE8B16900D0DA82 /* PBXContainerItemProxy */;
+			path = SwiftHTTPtvOSTests.xctest;
+			remoteRef = 39DDEEBC1DEA283900D39398 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		39DDEEBF1DEA283900D39398 /* SwiftHTTP.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SwiftHTTP.framework;
+			remoteRef = 39DDEEBE1DEA283900D39398 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -550,8 +581,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				394B1CC01DE3F14700E8773E /* FemTreKampApp.xcdatamodeld in Sources */,
+				39DDEEC51DEA2A7200D39398 /* SwiftHTTPModel.swift in Sources */,
 				394B1CBA1DE3F14700E8773E /* ViewController.swift in Sources */,
 				394B1CB81DE3F14700E8773E /* AppDelegate.swift in Sources */,
+				39DDEEA71DEA280600D39398 /* JSONJoySerializationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -589,10 +622,10 @@
 			name = JSONJoy;
 			targetProxy = 39947E1F1DE8B13E00D0DA82 /* PBXContainerItemProxy */;
 		};
-		39947E3D1DE8B19F00D0DA82 /* PBXTargetDependency */ = {
+		39DDEEC31DEA286F00D39398 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "SwiftyJSON iOS";
-			targetProxy = 39947E3C1DE8B19F00D0DA82 /* PBXContainerItemProxy */;
+			name = SwiftHTTP;
+			targetProxy = 39DDEEC21DEA286F00D39398 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -629,8 +662,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -652,7 +687,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -674,8 +709,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -691,9 +728,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -704,8 +742,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GZP9KMPBH2;
 				INFOPLIST_FILE = FemTreKampApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -718,8 +757,9 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = GZP9KMPBH2;
 				INFOPLIST_FILE = FemTreKampApp/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.pasanenjani.FemTreKampApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
