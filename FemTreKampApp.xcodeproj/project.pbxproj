@@ -20,6 +20,12 @@
 		3959AA521DF1FCDA00B3B5C1 /* OpenBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA511DF1FCDA00B3B5C1 /* OpenBookingView.swift */; };
 		3959AA551DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA541DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift */; };
 		3959AA581DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA571DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift */; };
+		3959AA5A1DF1FDE600B3B5C1 /* RegisterBookingCompetitorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA591DF1FDE600B3B5C1 /* RegisterBookingCompetitorsViewController.swift */; };
+		3959AA5C1DF1FDFC00B3B5C1 /* RegisterBookingCompetitorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA5B1DF1FDFC00B3B5C1 /* RegisterBookingCompetitorsView.swift */; };
+		3959AA601DF1FE4200B3B5C1 /* OpenBookingFromListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA5F1DF1FE4200B3B5C1 /* OpenBookingFromListView.swift */; };
+		3959AA621DF1FE6100B3B5C1 /* OpenBookingFromListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA611DF1FE6100B3B5C1 /* OpenBookingFromListViewController.swift */; };
+		3959AA641DF1FE8400B3B5C1 /* OpenBookingByNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA631DF1FE8400B3B5C1 /* OpenBookingByNumberViewController.swift */; };
+		3959AA661DF1FE9B00B3B5C1 /* OpenBookingByNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA651DF1FE9B00B3B5C1 /* OpenBookingByNumberView.swift */; };
 		39947E1D1DE8B13E00D0DA82 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; };
 		39947E1E1DE8B13E00D0DA82 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39DDEEA71DEA280600D39398 /* JSONJoySerializationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */; };
@@ -192,6 +198,12 @@
 		3959AA511DF1FCDA00B3B5C1 /* OpenBookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingView.swift; sourceTree = "<group>"; };
 		3959AA541DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBookingCodeView.swift; sourceTree = "<group>"; };
 		3959AA571DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBookingCodeViewController.swift; sourceTree = "<group>"; };
+		3959AA591DF1FDE600B3B5C1 /* RegisterBookingCompetitorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBookingCompetitorsViewController.swift; sourceTree = "<group>"; };
+		3959AA5B1DF1FDFC00B3B5C1 /* RegisterBookingCompetitorsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBookingCompetitorsView.swift; sourceTree = "<group>"; };
+		3959AA5F1DF1FE4200B3B5C1 /* OpenBookingFromListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingFromListView.swift; sourceTree = "<group>"; };
+		3959AA611DF1FE6100B3B5C1 /* OpenBookingFromListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingFromListViewController.swift; sourceTree = "<group>"; };
+		3959AA631DF1FE8400B3B5C1 /* OpenBookingByNumberViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingByNumberViewController.swift; sourceTree = "<group>"; };
+		3959AA651DF1FE9B00B3B5C1 /* OpenBookingByNumberView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingByNumberView.swift; sourceTree = "<group>"; };
 		39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift/JSONJoy.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoySerializationModel.swift; sourceTree = "<group>"; };
 		39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -287,6 +299,8 @@
 		3959AA4D1DF1FC9700B3B5C1 /* OpenBooking */ = {
 			isa = PBXGroup;
 			children = (
+				3959AA5E1DF1FE1900B3B5C1 /* OpenBookingByNumber */,
+				3959AA5D1DF1FE0B00B3B5C1 /* OpenBookingFromList */,
 				3959AA4F1DF1FCBD00B3B5C1 /* OpenBookingViewController.swift */,
 				3959AA511DF1FCDA00B3B5C1 /* OpenBookingView.swift */,
 			);
@@ -305,6 +319,8 @@
 		3959AA531DF1FCFA00B3B5C1 /* RegisterBookingCompetitiors */ = {
 			isa = PBXGroup;
 			children = (
+				3959AA591DF1FDE600B3B5C1 /* RegisterBookingCompetitorsViewController.swift */,
+				3959AA5B1DF1FDFC00B3B5C1 /* RegisterBookingCompetitorsView.swift */,
 			);
 			name = RegisterBookingCompetitiors;
 			sourceTree = "<group>";
@@ -314,6 +330,24 @@
 			children = (
 			);
 			name = "New Group";
+			sourceTree = "<group>";
+		};
+		3959AA5D1DF1FE0B00B3B5C1 /* OpenBookingFromList */ = {
+			isa = PBXGroup;
+			children = (
+				3959AA5F1DF1FE4200B3B5C1 /* OpenBookingFromListView.swift */,
+				3959AA611DF1FE6100B3B5C1 /* OpenBookingFromListViewController.swift */,
+			);
+			name = OpenBookingFromList;
+			sourceTree = "<group>";
+		};
+		3959AA5E1DF1FE1900B3B5C1 /* OpenBookingByNumber */ = {
+			isa = PBXGroup;
+			children = (
+				3959AA631DF1FE8400B3B5C1 /* OpenBookingByNumberViewController.swift */,
+				3959AA651DF1FE9B00B3B5C1 /* OpenBookingByNumberView.swift */,
+			);
+			name = OpenBookingByNumber;
 			sourceTree = "<group>";
 		};
 		39947E061DE8B12600D0DA82 /* Products */ = {
@@ -354,11 +388,11 @@
 		39DDEEA21DEA275F00D39398 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
-				3959AA561DF1FD2900B3B5C1 /* New Group */,
+				3959AA4A1DF1FC6300B3B5C1 /* MainMenu */,
+				3959AA4D1DF1FC9700B3B5C1 /* OpenBooking */,
 				3959AA531DF1FCFA00B3B5C1 /* RegisterBookingCompetitiors */,
 				3959AA4E1DF1FCA400B3B5C1 /* RegisterBookingCode */,
-				3959AA4D1DF1FC9700B3B5C1 /* OpenBooking */,
-				3959AA4A1DF1FC6300B3B5C1 /* MainMenu */,
+				3959AA561DF1FD2900B3B5C1 /* New Group */,
 			);
 			name = MVC;
 			sourceTree = "<group>";
@@ -636,15 +670,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				3959AA581DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift in Sources */,
+				3959AA5C1DF1FDFC00B3B5C1 /* RegisterBookingCompetitorsView.swift in Sources */,
+				3959AA661DF1FE9B00B3B5C1 /* OpenBookingByNumberView.swift in Sources */,
 				3959AA4C1DF1FC8100B3B5C1 /* MainMenuView.swift in Sources */,
 				3959AA501DF1FCBD00B3B5C1 /* OpenBookingViewController.swift in Sources */,
 				394B1CC01DE3F14700E8773E /* FemTreKampApp.xcdatamodeld in Sources */,
+				3959AA641DF1FE8400B3B5C1 /* OpenBookingByNumberViewController.swift in Sources */,
 				39DDEEC51DEA2A7200D39398 /* SwiftHTTPModel.swift in Sources */,
 				394B1CBA1DE3F14700E8773E /* MainMenuViewController.swift in Sources */,
+				3959AA601DF1FE4200B3B5C1 /* OpenBookingFromListView.swift in Sources */,
+				3959AA621DF1FE6100B3B5C1 /* OpenBookingFromListViewController.swift in Sources */,
 				3959AA551DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift in Sources */,
 				394B1CB81DE3F14700E8773E /* AppDelegate.swift in Sources */,
 				3959AA521DF1FCDA00B3B5C1 /* OpenBookingView.swift in Sources */,
 				39DDEEA71DEA280600D39398 /* JSONJoySerializationModel.swift in Sources */,
+				3959AA5A1DF1FDE600B3B5C1 /* RegisterBookingCompetitorsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
