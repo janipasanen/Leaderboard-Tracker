@@ -8,13 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		394B1CB81DE3F14700E8773E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CB71DE3F14700E8773E /* AppDelegate.swift */; };
-		394B1CBA1DE3F14700E8773E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CB91DE3F14700E8773E /* ViewController.swift */; };
+		394B1CBA1DE3F14700E8773E /* MainMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CB91DE3F14700E8773E /* MainMenuViewController.swift */; };
 		394B1CBD1DE3F14700E8773E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CBB1DE3F14700E8773E /* Main.storyboard */; };
 		394B1CC01DE3F14700E8773E /* FemTreKampApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CBE1DE3F14700E8773E /* FemTreKampApp.xcdatamodeld */; };
 		394B1CC21DE3F14700E8773E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CC11DE3F14700E8773E /* Assets.xcassets */; };
 		394B1CC51DE3F14700E8773E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */; };
 		394B1CD01DE3F14700E8773E /* FemTreKampAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CCF1DE3F14700E8773E /* FemTreKampAppTests.swift */; };
 		394B1CDB1DE3F14700E8773E /* FemTreKampAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */; };
+		3959AA4C1DF1FC8100B3B5C1 /* MainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA4B1DF1FC8100B3B5C1 /* MainMenuView.swift */; };
+		3959AA501DF1FCBD00B3B5C1 /* OpenBookingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA4F1DF1FCBD00B3B5C1 /* OpenBookingViewController.swift */; };
+		3959AA521DF1FCDA00B3B5C1 /* OpenBookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA511DF1FCDA00B3B5C1 /* OpenBookingView.swift */; };
+		3959AA551DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA541DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift */; };
+		3959AA581DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3959AA571DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift */; };
 		39947E1D1DE8B13E00D0DA82 /* JSONJoy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; };
 		39947E1E1DE8B13E00D0DA82 /* JSONJoy.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 39947E101DE8B12600D0DA82 /* JSONJoy.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		39DDEEA71DEA280600D39398 /* JSONJoySerializationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */; };
@@ -170,7 +175,7 @@
 /* Begin PBXFileReference section */
 		394B1CB41DE3F14700E8773E /* FemTreKampApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FemTreKampApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B1CB71DE3F14700E8773E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		394B1CB91DE3F14700E8773E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		394B1CB91DE3F14700E8773E /* MainMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenuViewController.swift; sourceTree = "<group>"; };
 		394B1CBC1DE3F14700E8773E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		394B1CBF1DE3F14700E8773E /* FemTreKampApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FemTreKampApp.xcdatamodel; sourceTree = "<group>"; };
 		394B1CC11DE3F14700E8773E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -182,6 +187,11 @@
 		394B1CD61DE3F14700E8773E /* FemTreKampAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FemTreKampAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		394B1CDA1DE3F14700E8773E /* FemTreKampAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FemTreKampAppUITests.swift; sourceTree = "<group>"; };
 		394B1CDC1DE3F14700E8773E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3959AA4B1DF1FC8100B3B5C1 /* MainMenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenuView.swift; sourceTree = "<group>"; };
+		3959AA4F1DF1FCBD00B3B5C1 /* OpenBookingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingViewController.swift; sourceTree = "<group>"; };
+		3959AA511DF1FCDA00B3B5C1 /* OpenBookingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenBookingView.swift; sourceTree = "<group>"; };
+		3959AA541DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBookingCodeView.swift; sourceTree = "<group>"; };
+		3959AA571DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterBookingCodeViewController.swift; sourceTree = "<group>"; };
 		39947E051DE8B12600D0DA82 /* JSONJoy.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = JSONJoy.xcodeproj; path = "JSONJoy-Swift/JSONJoy.xcodeproj"; sourceTree = SOURCE_ROOT; };
 		39DDEEA61DEA280600D39398 /* JSONJoySerializationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONJoySerializationModel.swift; sourceTree = "<group>"; };
 		39DDEEA81DEA283800D39398 /* SwiftHTTP.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SwiftHTTP.xcodeproj; path = SwiftHTTP/SwiftHTTP.xcodeproj; sourceTree = SOURCE_ROOT; };
@@ -265,6 +275,47 @@
 			path = FemTreKampAppUITests;
 			sourceTree = "<group>";
 		};
+		3959AA4A1DF1FC6300B3B5C1 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				394B1CB91DE3F14700E8773E /* MainMenuViewController.swift */,
+				3959AA4B1DF1FC8100B3B5C1 /* MainMenuView.swift */,
+			);
+			name = MainMenu;
+			sourceTree = "<group>";
+		};
+		3959AA4D1DF1FC9700B3B5C1 /* OpenBooking */ = {
+			isa = PBXGroup;
+			children = (
+				3959AA4F1DF1FCBD00B3B5C1 /* OpenBookingViewController.swift */,
+				3959AA511DF1FCDA00B3B5C1 /* OpenBookingView.swift */,
+			);
+			name = OpenBooking;
+			sourceTree = "<group>";
+		};
+		3959AA4E1DF1FCA400B3B5C1 /* RegisterBookingCode */ = {
+			isa = PBXGroup;
+			children = (
+				3959AA541DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift */,
+				3959AA571DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift */,
+			);
+			name = RegisterBookingCode;
+			sourceTree = "<group>";
+		};
+		3959AA531DF1FCFA00B3B5C1 /* RegisterBookingCompetitiors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = RegisterBookingCompetitiors;
+			sourceTree = "<group>";
+		};
+		3959AA561DF1FD2900B3B5C1 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
 		39947E061DE8B12600D0DA82 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -292,7 +343,6 @@
 			isa = PBXGroup;
 			children = (
 				394B1CB71DE3F14700E8773E /* AppDelegate.swift */,
-				394B1CB91DE3F14700E8773E /* ViewController.swift */,
 				394B1CC11DE3F14700E8773E /* Assets.xcassets */,
 				394B1CC31DE3F14700E8773E /* LaunchScreen.storyboard */,
 				394B1CC61DE3F14700E8773E /* Info.plist */,
@@ -304,6 +354,11 @@
 		39DDEEA21DEA275F00D39398 /* MVC */ = {
 			isa = PBXGroup;
 			children = (
+				3959AA561DF1FD2900B3B5C1 /* New Group */,
+				3959AA531DF1FCFA00B3B5C1 /* RegisterBookingCompetitiors */,
+				3959AA4E1DF1FCA400B3B5C1 /* RegisterBookingCode */,
+				3959AA4D1DF1FC9700B3B5C1 /* OpenBooking */,
+				3959AA4A1DF1FC6300B3B5C1 /* MainMenu */,
 			);
 			name = MVC;
 			sourceTree = "<group>";
@@ -580,10 +635,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3959AA581DF1FD3E00B3B5C1 /* RegisterBookingCodeViewController.swift in Sources */,
+				3959AA4C1DF1FC8100B3B5C1 /* MainMenuView.swift in Sources */,
+				3959AA501DF1FCBD00B3B5C1 /* OpenBookingViewController.swift in Sources */,
 				394B1CC01DE3F14700E8773E /* FemTreKampApp.xcdatamodeld in Sources */,
 				39DDEEC51DEA2A7200D39398 /* SwiftHTTPModel.swift in Sources */,
-				394B1CBA1DE3F14700E8773E /* ViewController.swift in Sources */,
+				394B1CBA1DE3F14700E8773E /* MainMenuViewController.swift in Sources */,
+				3959AA551DF1FD2500B3B5C1 /* RegisterBookingCodeView.swift in Sources */,
 				394B1CB81DE3F14700E8773E /* AppDelegate.swift in Sources */,
+				3959AA521DF1FCDA00B3B5C1 /* OpenBookingView.swift in Sources */,
 				39DDEEA71DEA280600D39398 /* JSONJoySerializationModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
