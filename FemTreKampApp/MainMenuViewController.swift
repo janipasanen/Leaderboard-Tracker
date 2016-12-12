@@ -10,6 +10,15 @@ import UIKit
 
 
 class MainMenuViewController: UIViewController {
+    
+    
+    private struct Constants {
+        static let OpenBookingSegue = "Open Booking"
+        static let RegisterBookingSegue = "Register Booking"
+        static let ChangeBookingSegue = "Change Booking"
+        
+        
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
