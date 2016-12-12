@@ -9,7 +9,13 @@
 import UIKit
 
 class InitialViewController: UIViewController {
+    
+    private struct Constants {
+        static let OpenMainMenuSegue = "Open main menu segue"
 
+    }
+        
+        
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -19,6 +19,19 @@ class MainMenuViewController: UIViewController {
         
         
     }
+    
+    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+        <#code#>
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        <#code#>
+    }
+    
+    override func shouldPerformSegue(withIdentifier identifier: String, sender: Any?) -> Bool {
+        <#code#>
+    }
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()

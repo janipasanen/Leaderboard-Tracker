@@ -14,7 +14,7 @@
         <scene sceneID="Nnm-IQ-okL">
             <objects>
                 <viewController id="Q7x-6U-4fj" customClass="InitialViewController" customModule="FemTreKampApp" sceneMemberID="viewController">
-                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="reE-QO-x5c">
+                    <imageView key="view" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background Frontpage" id="reE-QO-x5c">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     </imageView>
@@ -24,7 +24,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="31J-05-Vr3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-866" y="551"/>
+            <point key="canvasLocation" x="-875" y="551"/>
         </scene>
         <!--Main Menu View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -111,7 +111,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-162" y="551"/>
+            <point key="canvasLocation" x="103" y="551"/>
         </scene>
         <!--Root View Controller-->
         <scene sceneID="dAP-ge-LF3">
@@ -495,9 +495,14 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" title="Öppna kamp med bokningsnummer" id="KPY-jf-sBN">
-                        <barButtonItem key="leftBarButtonItem" title="Ångra" id="g7r-Mz-bVO"/>
+                        <barButtonItem key="leftBarButtonItem" title="Ångra" id="g7r-Mz-bVO">
+                            <connections>
+                                <action selector="CancelButton:" destination="9lL-l4-fpd" id="weW-TU-eCn"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Öppna" id="o9g-4S-dvX">
                             <connections>
+                                <action selector="OpenButton:" destination="9lL-l4-fpd" id="i1I-7N-Niy"/>
                                 <segue destination="lUZ-2D-wwe" kind="presentation" identifier="Open with number button segue" id="GfB-N0-rcW"/>
                             </connections>
                         </barButtonItem>
@@ -583,4 +588,7 @@
             <point key="canvasLocation" x="747.65625" y="1261.5234375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background Frontpage" width="1000" height="574"/>
+    </resources>
 </document>

@@ -10,6 +10,21 @@ import UIKit
 
 class OpenBookingByNumberViewController: UIViewController {
 
+    
+    
+    @IBAction func OpenButton(_ sender: UIBarButtonItem) {
+        self.performSegue(withIdentifier: "Open with number button segue", sender:self)
+    
+    
+        
+        
+    }
+    
+    @IBAction func CancelButton(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
